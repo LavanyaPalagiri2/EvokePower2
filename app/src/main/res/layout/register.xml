@@ -102,6 +102,7 @@
             android:background="@drawable/ic_action_city"
             android:layout_marginLeft="15dp"
             />
+
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
