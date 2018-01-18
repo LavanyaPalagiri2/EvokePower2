@@ -12,6 +12,7 @@ public class MainActivity extends AppCompatActivity {
 ///kjnnkjhjkikjjkj
         //check  dix ciode mb
         //..,;l,;l,,l;l
+        //hj
 
         setContentView(R.layout.activity_main);
     }
