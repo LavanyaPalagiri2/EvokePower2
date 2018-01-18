@@ -74,7 +74,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="30dp"
-            android:background="@drawable/ic_action_password"
+            android:background="@drawable/ic_action_cap"
             android:layout_marginLeft="15dp"
             />
         <EditText
@@ -83,7 +83,7 @@
             android:layout_marginRight="5dp"
             android:layout_marginTop="10dp"
             android:hint="Captcha code"
-            android:id="@+id/cc1"
+            android:id="@+id/et3"
             android:padding="10dp"
             android:background="@drawable/backgrnd"/>
     </LinearLayout>
@@ -105,7 +105,7 @@
             android:layout_height="wrap_content"
             android:text="Forgot Password?"
             android:layout_marginLeft="10dp"
-            android:id="@+id/fp"
+            android:id="@+id/btn2"
             android:textColor="#e4183a"
             android:textSize="20dp"/>
         <Button
@@ -113,7 +113,7 @@
             android:layout_height="wrap_content"
             android:text="Register"
             android:textColor="#e4183a"
-            android:id="@+id/rg"
+            android:id="@+id/btn3"
             android:textSize="20dp"
             android:layout_marginLeft="30dp"/>
 
