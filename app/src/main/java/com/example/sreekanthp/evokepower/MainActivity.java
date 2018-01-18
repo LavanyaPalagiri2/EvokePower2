@@ -10,6 +10,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
 ///kjnnkjhjkikjjkj
+        //check  dix ciode
 
         setContentView(R.layout.activity_main);
     }
