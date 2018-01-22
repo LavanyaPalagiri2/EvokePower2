@@ -87,15 +87,13 @@
             android:padding="10dp"
             android:background="@drawable/backgrnd"/>
     </LinearLayout>
-    <Button
-        android:layout_width="wrap_content"
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/appCompatButtonLogin"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:layout_marginLeft="140dp"
-        android:id="@+id/btn"
-        android:text="SUBMIT"
-        android:padding="10dp"
-        android:textSize="30dp"/>
+        android:layout_marginTop="40dp"
+
+        android:text="@string/text_login" />
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -108,14 +106,15 @@
             android:id="@+id/btn2"
             android:textColor="#e4183a"
             android:textSize="20dp"/>
-        <Button
-            android:layout_width="wrap_content"
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/textViewLinkRegister"
+            android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="Register"
-            android:textColor="#e4183a"
-            android:id="@+id/btn3"
-            android:textSize="20dp"
-            android:layout_marginLeft="30dp"/>
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:text="@string/text_register"
+            android:textSize="30dp" />
 
     </LinearLayout>
 
